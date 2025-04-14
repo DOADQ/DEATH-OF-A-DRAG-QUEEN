@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Death of a Drag Queen</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #0e0e0e;
+      color: #f0f0f0;
+    }
+    header {
+      background: url('hero-image.jpg') no-repeat center center/cover;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+      padding: 2rem;
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 4rem;
+      margin-bottom: 1rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      max-width: 600px;
+    }
+    nav {
+      background-color: #1e1e1e;
+      display: flex;
+      justify-content: center;
+      padding: 1rem;
+      gap: 2rem;
+    }
+    nav a {
+      color: #f0f0f0;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #e91e63;
+    }
+    section {
+      padding: 4rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    section h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5rem;
+      color: #e91e63;
+      margin-bottom: 1rem;
+    }
+    section p {
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+    footer {
+      background-color: #1e1e1e;
+      color: #999;
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Death of a Drag Queen</h1>
+    <p>When the spotlight fades, who’s left in the mirror?</p>
+  </header>
+  <nav>
+    <a href="#show">The Show</a>
+    <a href="#performer">The Performer</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#watch">Watch</a>
+    <a href="#voices">Voices</a>
+  </nav>
+  
+  <section id="show">
+    <h2>The Show</h2>
+    <p>A one-man journey through glamour and ghosts. Touching themes of betrayal, suicide, aging, irrelevance, and transcendence, this theatrical monologue takes the audience into the soul of a queen facing the final curtain — and what lies beyond it.</p>
+  </section>
+
+  <section id="performer">
+    <h2>The Performer</h2>
+    <p>Meet the artist behind the makeup — a veteran of the stage, a vessel of many characters, now revealing his truest self. This is his most personal story yet, stripped of glitter but not grace.</p>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="drag1.jpg" alt="Drag queen on stage" />
+      <img src="drag2.jpg" alt="Behind the scenes" />
+      <img src="drag3.jpg" alt="Mirror reflection" />
+    </div>
+  </section>
+
+  <section id="watch">
+    <h2>Watch / Attend</h2>
+    <p>See the show in select theaters or stream online. <br><br> Upcoming performances: <br> • NYC - May 3rd–6th <br> • LA - June 14th–18th <br><br> <strong>Trailer coming soon.</strong></p>
+  </section>
+
+  <section id="voices">
+    <h2>Voices from the Audience</h2>
+    <p>“I saw myself in him. In the glitter, the grief, and the grace.”<br>— An Audience Member</p>
+    <p>“A bold meditation on relevance, spirit, and the beauty of letting go.”<br>— Theatre Weekly</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Death of a Drag Queen. All rights reserved.</p>
+  </footer>
+</body>
+</html>
